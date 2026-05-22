@@ -3,7 +3,7 @@ public class Cuenta {
     private String nombre, domicilio;
     private double saldo_debito, deuda_credito;
 
-    public Cuenta(double saldo_debito, double deuda_credito, String nombre, String domicilio) {
+    public Cuenta() {
 
         setSaldo(saldo_debito);
         setDeuda(deuda_credito);
@@ -47,7 +47,7 @@ public class Cuenta {
         }
     }
 
-    public void setDireccionFiscal(String domicilio) {
+    public void setDomicilio(String domicilio) {
         if (domicilio == null || domicilio.isEmpty()) {
             System.out.println("Domicilio vacio");
         } else {
