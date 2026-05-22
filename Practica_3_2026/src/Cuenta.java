@@ -47,7 +47,7 @@ public class Cuenta {
         }
     }
 
-    public void setDomicilio(String domicilio) {
+    public void setDireccionFiscal(String domicilio) {
         if (domicilio == null || domicilio.isEmpty()) {
             System.out.println("Domicilio vacio");
         } else {
