@@ -3,8 +3,10 @@ public class Cuenta {
     private String domicilio;
     private String numCuenta;
 
-    public Cuenta(String nombre, String domicilio, String numCuenta) {
-
+    public Cuenta(String nombre, String domicilio, String numCuenta){
+        setDomicilio(domicilio);
+        setNombre(nombre);
+        setNumCuenta(numCuenta);
     }
 
     public String getNombre(){
@@ -39,5 +41,19 @@ public class Cuenta {
         } else {
             this.numCuenta = numCuenta;
         }
+    }
+    //para imprimir datos del objeto
+    public void consultarBalance(){
+        System.out.println("Cuenta: " + numCuenta +
+                " | Titular: " + nombre +
+                " | Domicilio: " + domicilio);    }
+
+    public void procesarTransaccion(double cantidad){
+        System.out.println("Procesar transaccion de: "+ cantidad);
+    }
+    //para imprimir texto plano
+    @Override
+    public String toString(){
+        return "Cuenta{nombre: " + nombre + ", domicilio: "+ domicilio + ", numCuenta: " + numCuenta + "}";
     }
 }
