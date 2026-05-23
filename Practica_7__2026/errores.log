@@ -1,0 +1,6 @@
+SaldoInsuficienteException: Saldo insuficiente. Saldo actual: 500.0 | Monto intentado: 1000.0
+CuentaNoEncontradaException: Cuenta no encontrada: 9999999999
+SaldoInsuficienteException: Saldo insuficiente. Saldo actual: 500.0 | Monto intentado: 1000.0
+CuentaNoEncontradaException: Cuenta no encontrada: 9999999999
+LimiteCreditoException: Límite de crédito excedido. Límite: 15000.0 | Intentado: 500.0
+CuentaNoEncontradaException: Cuenta no encontrada: ABC-999

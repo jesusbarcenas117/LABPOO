@@ -10,4 +10,5 @@ public class SaldoInsuficienteException extends BancoException{
 
     public double getSaldoActual() { return saldoActual; }
     public double getMontoIntentado() { return montoIntentado; }
+    //gracias intellij por autocompletar
 }
