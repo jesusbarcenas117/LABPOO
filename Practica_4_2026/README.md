@@ -7,3 +7,5 @@ La clase Banco gestiona una lista ArrayList<Cuenta> que acepta cualquier tipo de
 
 
 Para ejecutar es necesario tener un IDE compatible con java 11 o superior, compilar Main y correrlo.
+En este caso le veo puras ventajas para usar en el caso de los Bancos, no veo razon por la cual no usar herencia si todos comparten
+datos
