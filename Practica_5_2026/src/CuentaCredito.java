@@ -1,8 +1,8 @@
 public class CuentaCredito extends CuentaAbstracta implements Calculables {
     private double limiteCredito;
 
-    public CuentaCredito(String nombre, String numeroCuenta, double saldo, double limiteCredito) {
-        super(nombre, numeroCuenta, saldo);
+    public CuentaCredito(String nombre, String numCuenta, double saldo, double limiteCredito) {
+        super(nombre, numCuenta, saldo);
         this.limiteCredito = limiteCredito;
     }
 

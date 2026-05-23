@@ -30,5 +30,9 @@ public abstract class CuentaAbstracta {
         System.out.println(saldo);
     }
 
-
+    public void generarReporte() {
+        System.out.println("=== REPORTE ===");
+        mostrarTitular();
+        consultarBalance();
+    }
 }
