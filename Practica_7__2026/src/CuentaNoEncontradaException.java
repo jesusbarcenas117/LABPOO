@@ -1,2 +1,5 @@
-public class CuentaNoEncontradaException {
+public class CuentaNoEncontradaException extends BancoException {
+    public CuentaNoEncontradaException(String numeroCuenta) {
+        super("Cuenta no encontrada: " + numeroCuenta);
+    }
 }
