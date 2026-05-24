@@ -37,7 +37,8 @@ public class ClienteController {
     }
 
     public ObservableList<Cliente> getClientes() {
-        return clientes;
+        return clientes;    //no se que hace internamente pero externo muestra los clientes en pantalla
+        //esto pasa por que es una lista observable
     }
 
     private void guardarDatos() {
