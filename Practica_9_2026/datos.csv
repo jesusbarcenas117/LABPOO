@@ -1,0 +1,16 @@
+nombre,numeroCuenta,saldo,domicilio,tipo
+Jesus Barcenas,1001,5000,Monterrey,ahorro
+Daniel Lopez,1002,15000,Guadalajara,credito
+Maria Garcia,1003,20000,CDMX,inversion
+Pedro Ramirez,1004,3000,Monterrey,ahorro
+Ana Torres,1005,8000,Guadalajara,ahorro
+Carlos Mendez,1006,50000,CDMX,inversion
+Laura Sanchez,1007,1200,Monterrey,ahorro
+Roberto Diaz,1008,25000,Tijuana,credito
+Sofia Herrera,1009,9000,Guadalajara,inversion
+Miguel Castro,1010,4500,CDMX,ahorro
+Elena Flores,1011,11000,Monterrey,credito
+Andres Reyes,1012,30000,Tijuana,inversion
+Patricia Vega,1013,2500,Guadalajara,ahorro
+Fernando Luna,1014,18000,CDMX,credito
+Gabriela Mora,1015,7000,Monterrey,ahorro
