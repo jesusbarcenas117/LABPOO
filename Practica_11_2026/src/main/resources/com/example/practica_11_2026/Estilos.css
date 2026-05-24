@@ -1,0 +1,46 @@
+.root {
+    -fx-background-color: #1e1e2e;
+    -fx-font-family: "Arial";
+}
+
+.label {
+    -fx-text-fill: #cdd6f4;
+}
+
+.button {
+    -fx-background-color: #89b4fa;
+    -fx-text-fill: #1e1e2e;
+    -fx-font-weight: bold;
+    -fx-cursor: hand;
+}
+
+.button:hover {
+    -fx-background-color: #74c7ec;
+}
+
+.table-view {
+    -fx-background-color: #b9bfff;
+}
+
+.table-row-cell {
+    -fx-background-color: #5f607e;
+    -fx-text-fill: #000000;
+}
+.table-column-header .label {
+    -fx-text-fill: #1e1e2e;
+}
+.table-column-header .label {
+    -fx-text-fill: #000000;
+}
+
+.table-row-cell:selected {
+    -fx-background-color: #ffffff;
+}
+.table-row-cell:selected .text {
+    -fx-fill: #43436e;
+}
+
+.text-field, .combo-box {
+    -fx-background-color: #45475a;
+    -fx-text-fill: #cdd6f4;
+}
