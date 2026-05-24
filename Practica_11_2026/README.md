@@ -7,3 +7,6 @@ el filtrado interactivo se implemento con filterelist de javafx, que envuelve la
 clientes. se enlaza con el campo de busqueda usando textproperty().addlistener() cada vez que el usuario
 escribe, el predicado del filtro se actualiza y la tabla se refresca automaticamente sin necesidad de recargar nada.
 el css externo define colores, tipografia y estilos de la tabla y los botones
+
+Ejecutable JAR: Practica_11_2026-1.0-SNAPSHOT.jar (requiere Java 11+)
+Alternativo: descomprimir app.zip y ejecutar app/bin/app.bat
