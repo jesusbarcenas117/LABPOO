@@ -9,7 +9,7 @@ public class Cliente implements Serializable {
     private String telefono;
     private int puntos;
 
-    public Cliente(String nombre, String apellido, String email, String telefono, int puntos) {
+    public Cliente(String nombre, String apellido, String email, String telefono) {
         this.nombre = nombre;
         this.apellido = apellido;
         this.email = email;
