@@ -27,24 +27,20 @@ public class MainApp extends Application {
 
         Cliente c1 = cc.getClientes().get(0);
 
-        // Prueba membresia
         Membresia m1 = new Membresia("premium", 500, "2026-01-01", "2026-12-31", c1);
         mc.agregar(m1);
 
-        // Prueba pago
         try {
             Pago p1 = new Pago(500, "2026-05-24", "Mensualidad", c1);
             pc.procesarPago(p1);
             System.out.println("Pago procesado. Puntos: " + c1.getPuntos());
 
-            // Pago invalido
             Pago p2 = new Pago(-100, "2026-05-24", "Invalido", c1);
             pc.procesarPago(p2);
         } catch (PagoInvalidoException e) {
             System.out.println("Excepcion capturada: " + e.getMessage());
         }
 
-        // Prueba acceso
         try {
             ac.registrarEntrada(c1, m1);
             ac.registrarSalida(c1);
