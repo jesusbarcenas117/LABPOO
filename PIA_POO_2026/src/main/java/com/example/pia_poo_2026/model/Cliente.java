@@ -17,6 +17,10 @@ public class Cliente implements Serializable {
         this.puntos = 0;
     }
 
+    public void agregarPuntos(int p) {
+        this.puntos += p;
+    }
+
     public String getNombre() {
         return nombre;
     }
