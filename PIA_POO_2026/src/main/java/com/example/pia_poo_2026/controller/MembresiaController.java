@@ -40,6 +40,15 @@ public class MembresiaController {
     private void guardarDatos() {
         Serializador.guardar(membresias.stream().collect(Collectors.toList()), ARCHIVO);
     }
+    public void guardarCambios() {
+        Serializador.guardar(membresias.stream().collect(Collectors.toList()), ARCHIVO);
+    }
+    public boolean clienteTieneMembresia(Cliente c, String tipo) {
+        return membresias.stream()
+                .anyMatch(m -> m.getCliente().getNombre().equals(c.getNombre())
+                        && m.getTipo().equals(tipo)
+                        && m.isActiva());
+    }
 
     @SuppressWarnings("unchecked")
     private void cargarDatos() {

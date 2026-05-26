@@ -1,0 +1,30 @@
+=== REPORTE GYMPOS ===
+Generado: 20260526_005745
+
+--- CLIENTES (21) ---
+Jesus Barcenas | jesus@gym.com | Puntos: 0
+Daniel Lopez | daniel@gym.com | Puntos: 0
+Maria Garcia | maria@gym.com | Puntos: 0
+Pedro Ramirez | pedro@gym.com | Puntos: 0
+Ana Torres | ana@gym.com | Puntos: 0
+Carlos Mendez | carlos@gym.com | Puntos: 0
+Laura Sanchez | laura@gym.com | Puntos: 0
+Roberto Diaz | roberto@gym.com | Puntos: 0
+Sofia Herrera | sofia@gym.com | Puntos: 0
+Miguel Castro | miguel@gym.com | Puntos: 0
+Elena Flores | elena@gym.com | Puntos: 0
+Andres Reyes | andres@gym.com | Puntos: 0
+Patricia Vega | patricia@gym.com | Puntos: 0
+Fernando Luna | fernando@gym.com | Puntos: 0
+Gabriela Mora | gabriela@gym.com | Puntos: 0
+Ricardo Pena | ricardo@gym.com | Puntos: 0
+Valentina Cruz | valentina@gym.com | Puntos: 0
+Jorge Medina | jorge@gym.com | Puntos: 0
+Claudia Rios | claudia@gym.com | Puntos: 0
+Alberto Vargas | alberto@gym.com | Puntos: 0
+joel  barcenas | joelbarcenas@gmail.com | Puntos: 0
+
+--- PAGOS (2) ---
+Jesus | Mensualidad | $500.0 | 2026-05-24
+Jesus | Mensualidad | $500.0 | 2026-05-24
+Total recaudado: $1000.0
